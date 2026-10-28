@@ -1,0 +1,29 @@
+{
+  "source": "APPROXIMATE SAMPLE centroids for development; the real list comes with the importer",
+  "centroids": {
+    "04318": {
+      "lat": 51.3393,
+      "lon": 12.4256
+    },
+    "04103": {
+      "lat": 51.3406,
+      "lon": 12.3878
+    },
+    "04107": {
+      "lat": 51.329,
+      "lon": 12.372
+    },
+    "04109": {
+      "lat": 51.341,
+      "lon": 12.364
+    },
+    "04275": {
+      "lat": 51.319,
+      "lon": 12.374
+    },
+    "04155": {
+      "lat": 51.36,
+      "lon": 12.37
+    }
+  }
+}

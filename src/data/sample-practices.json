@@ -1,0 +1,399 @@
+{
+  "source": "FICTIONAL SAMPLE DATA for development - not real practices",
+  "asOf": "2026-10-25",
+  "practices": [
+    {
+      "id": "sample-01",
+      "name": "Dipl.-Psych. Erika Beispiel",
+      "role": "Psychologische Psychotherapeutin",
+      "street": "Beispielstraße 1",
+      "zip": "04318",
+      "district": "Anger-Crottendorf",
+      "phones": ["0341 0000010"],
+      "methods": ["VT"],
+      "group": true,
+      "video": true,
+      "accessible": false,
+      "languages": [],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Di",
+          "from": "12:00",
+          "to": "12:50"
+        },
+        {
+          "day": "Do",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.3405,
+        "lon": 12.429
+      },
+      "email": "praxis-01@example.invalid"
+    },
+    {
+      "id": "sample-02",
+      "name": "Dr. med. Max Muster",
+      "role": "Psychotherap. tätiger Arzt",
+      "street": "Musterweg 12",
+      "zip": "04317",
+      "district": "Reudnitz-Thonberg",
+      "phones": ["0341 0000111"],
+      "methods": ["TP"],
+      "group": false,
+      "video": false,
+      "accessible": true,
+      "languages": ["Englisch"],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Mo",
+          "from": "12:00",
+          "to": "12:50"
+        },
+        {
+          "day": "Mi",
+          "from": "12:00",
+          "to": "12:50"
+        },
+        {
+          "day": "Fr",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.3352,
+        "lon": 12.4093
+      }
+    },
+    {
+      "id": "sample-03",
+      "name": "Lena Platzhalter",
+      "role": "Psychologische Psychotherapeutin",
+      "street": "Probeplatz 3",
+      "zip": "04299",
+      "district": "Stötteritz",
+      "phones": ["0341 0000212"],
+      "methods": ["VT", "TP"],
+      "group": false,
+      "video": true,
+      "accessible": false,
+      "languages": [],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Mi",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.3191,
+        "lon": 12.4197
+      },
+      "email": "praxis-03@example.invalid"
+    },
+    {
+      "id": "sample-04",
+      "name": "Dr. phil. Jonas Fiktiv",
+      "role": "Psychologischer Psychotherapeut",
+      "street": "Testallee 45",
+      "zip": "04103",
+      "district": "Zentrum-Südost",
+      "phones": ["0341 0000313"],
+      "methods": ["TP", "AP"],
+      "group": true,
+      "video": false,
+      "accessible": false,
+      "languages": [],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Mo",
+          "from": "12:00",
+          "to": "12:50"
+        },
+        {
+          "day": "Di",
+          "from": "12:00",
+          "to": "12:50"
+        },
+        {
+          "day": "Fr",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.3346,
+        "lon": 12.388
+      },
+      "absent": {
+        "from": "2026-10-12",
+        "to": "2026-10-23"
+      }
+    },
+    {
+      "id": "sample-05",
+      "name": "Dipl.-Psych. Sara Probe",
+      "role": "Psychologische Psychotherapeutin",
+      "street": "Fiktivgasse 7",
+      "zip": "04107",
+      "district": "Zentrum-Süd",
+      "phones": ["0341 0000414"],
+      "methods": ["VT"],
+      "group": false,
+      "video": true,
+      "accessible": false,
+      "languages": ["Englisch"],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Do",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.3291,
+        "lon": 12.3751
+      },
+      "email": "praxis-05@example.invalid",
+      "emailSource": "beispiel-website.invalid"
+    },
+    {
+      "id": "sample-06",
+      "name": "Tom Testmann",
+      "role": "Psychologischer Psychotherapeut",
+      "street": "Demoring 22",
+      "zip": "04109",
+      "district": "Zentrum-West",
+      "phones": ["0341 0000515"],
+      "methods": ["ST"],
+      "group": false,
+      "video": false,
+      "accessible": true,
+      "languages": [],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Mo",
+          "from": "12:00",
+          "to": "12:50"
+        },
+        {
+          "day": "Di",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.3412,
+        "lon": 12.3632
+      }
+    },
+    {
+      "id": "sample-07",
+      "name": "Dr. rer. nat. Ida Demo",
+      "role": "Psychologische Psychotherapeutin",
+      "street": "Platzhalterstr. 5",
+      "zip": "04275",
+      "district": "Südvorstadt",
+      "phones": ["0341 0000616"],
+      "methods": ["VT"],
+      "group": true,
+      "video": true,
+      "accessible": false,
+      "languages": [],
+      "childrenToo": true,
+      "phoneHours": [
+        {
+          "day": "Fr",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.319,
+        "lon": 12.3728
+      },
+      "email": "praxis-07@example.invalid"
+    },
+    {
+      "id": "sample-08",
+      "name": "Dipl.-Psych. Paul Entwurf",
+      "role": "Psychologischer Psychotherapeut",
+      "street": "Erfundenstr. 9",
+      "zip": "04155",
+      "district": "Gohlis-Süd",
+      "phones": ["0341 0000717"],
+      "methods": ["TP"],
+      "group": false,
+      "video": false,
+      "accessible": false,
+      "languages": ["Englisch"],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Mo",
+          "from": "12:00",
+          "to": "12:50"
+        },
+        {
+          "day": "Fr",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.3601,
+        "lon": 12.3712
+      }
+    },
+    {
+      "id": "sample-09",
+      "name": "Mia Vorlage",
+      "role": "Psychologische Psychotherapeutin",
+      "street": "Annahmeweg 30",
+      "zip": "04229",
+      "district": "Schleußig",
+      "phones": ["0341 0000818"],
+      "methods": ["VT"],
+      "group": false,
+      "video": true,
+      "accessible": false,
+      "languages": [],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Fr",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.3242,
+        "lon": 12.3409
+      },
+      "email": "praxis-09@example.invalid",
+      "phoneNote": "Terminvergabe nur Do 12:30-13:00"
+    },
+    {
+      "id": "sample-10",
+      "name": "Dr. med. Karl Skizze",
+      "role": "FA f. Psychosomat. Med. u. Psychother.",
+      "street": "Vorlagenstr. 14",
+      "zip": "04105",
+      "district": "Zentrum-Nord",
+      "phones": ["0341 0000919"],
+      "methods": ["TP", "AP"],
+      "group": true,
+      "video": false,
+      "accessible": true,
+      "languages": [],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Fr",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.3505,
+        "lon": 12.3741
+      }
+    },
+    {
+      "id": "sample-11",
+      "name": "Dipl.-Psych. Nora Annahme",
+      "role": "Psychologische Psychotherapeutin",
+      "street": "Skizzenhof 2",
+      "zip": "04277",
+      "district": "Connewitz",
+      "phones": ["0341 0001020"],
+      "methods": ["VT"],
+      "group": false,
+      "video": true,
+      "accessible": false,
+      "languages": ["Englisch"],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Mo",
+          "from": "12:00",
+          "to": "12:50"
+        },
+        {
+          "day": "Do",
+          "from": "12:00",
+          "to": "12:50"
+        },
+        {
+          "day": "Fr",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": true,
+      "partners": [],
+      "location": {
+        "lat": 51.3082,
+        "lon": 12.3856
+      },
+      "email": "praxis-11@example.invalid"
+    },
+    {
+      "id": "sample-12",
+      "name": "Ben Erfunden",
+      "role": "Psychologischer Psychotherapeut",
+      "street": "Entwurfstr. 18",
+      "zip": "04129",
+      "district": "Eutritzsch",
+      "phones": ["0341 0001121"],
+      "methods": ["TP"],
+      "group": false,
+      "video": false,
+      "accessible": false,
+      "languages": [],
+      "childrenToo": false,
+      "phoneHours": [
+        {
+          "day": "Fr",
+          "from": "12:00",
+          "to": "12:50"
+        }
+      ],
+      "inactiveHere": false,
+      "partners": [],
+      "location": {
+        "lat": 51.3653,
+        "lon": 12.3886
+      }
+    }
+  ]
+}

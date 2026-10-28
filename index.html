@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <!--
+      Content-Security-Policy: everything comes from our own origin, nothing leaves the browser.
+      PDF generation (@react-pdf/renderer) needs two narrow additions: script-src 'self'
+      'wasm-unsafe-eval' (allows WebAssembly only, not eval) for its layout engine, and data: in
+      connect-src because the wasm is inlined as a data: URL (no network request). If a feature
+      needs more, add only the narrowest directive here and document it.
+      Dev mode only: Vite's dev server injects an inline React refresh preamble that this policy
+      blocks. Production builds are unaffected; do not loosen script-src for it.
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data: blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <title>Therapieplatz-Liste Leipzig</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
